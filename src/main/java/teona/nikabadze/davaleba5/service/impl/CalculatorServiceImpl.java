@@ -7,8 +7,8 @@ import teona.nikabadze.davaleba5.service.CalculatorService;
 @Service
 public class CalculatorServiceImpl implements CalculatorService {
 
-    @Println
     @Override
+    @Println
     public int multiplication(int x, int y) {
         return x * y;
     }
